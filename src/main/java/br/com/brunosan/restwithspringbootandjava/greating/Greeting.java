@@ -1,4 +1,4 @@
-package br.com.brunosan.restwithspringbootandjava;
+package br.com.brunosan.restwithspringbootandjava.greating;
 
 public class Greeting {
     
