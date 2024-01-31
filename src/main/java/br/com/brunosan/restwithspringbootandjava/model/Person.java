@@ -5,7 +5,7 @@ import java.util.Objects;
 
 public class Person implements Serializable {
     
-//    private static final long serialVersionUID = 1L;
+    private static final long serialVersionUID = 1L;
     
     private Long id;
     private String firstName;
@@ -16,9 +16,10 @@ public class Person implements Serializable {
     public Person() {
     }
     
-    public Long setId(Long id) {
-        return this.id = id;
+    public void setId(Long id) {
+        this.id = id;
     }
+
     public String getFirstName() {
         return firstName;
     }
